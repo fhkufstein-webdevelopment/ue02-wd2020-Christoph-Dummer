@@ -48,6 +48,54 @@ footer {
     padding-top:20px;
 }
 
+.inner {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.level_1 > li {
+    display: inline-block;
+}
+
+.level_1 > li > a {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.level_1 li {
+    padding: 10px;
+}
+
+.level_2 {
+    position: absolute;
+    white-space: nowrap;
+    display: none;
+    background-color: white;
+    min-width: 200px;
+}
+
+.level_2 li:hover {
+    background-color: #337ab7;
+}
+
+.level_2 li:hover a {
+    color: white;
+}
+
+.level_1 > li:hover .level_2 {
+    display: block;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
 
 
 
